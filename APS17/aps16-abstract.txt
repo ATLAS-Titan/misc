@@ -1,17 +1,19 @@
-Molecular Dynamics (MD) simulations play an important role in range of
-disciplines ranging from Material Science to Biophysical systems and account
-for a large fraction of cycles consumed on campus, national and leadership
-class machines. Increasingly science and engineering problems require the
+Generic Workflow Management Systems for Molecular Dynamics
+
+Molecular Dynamics (MD) simulations play an important role in a range of
+disciplines from Material Science to Biophysical systems and account
+for a large fraction of cycles consumed on campus, national, and leadership-class 
+machines. Increasingly science and engineering problems require the
 successful execution of "many" MD simulations as opposed to a single long
 running MD simulation. Independent of whether the computational problem is
-formulated a workload comprised of an "ensemble" of identical simulations, or
+formulated as a workload comprised of an "ensemble" of identical simulations, or
 as "complex workflows", there is a need to provide scalable and flexible
 approaches to the execution of the workload. We present preliminary results
-that demonstrate a general capability to manage workload execution agnostic of
-specific MD simulation kernel or execution pattern. Our results build upon our
+that demonstrate a general capability to manage workload execution agnostic of a
+specific MD simulation kernel or execution pattern, and in a manner that integrates 
+disparate grid-based and supercomputing resources. Our results build upon our
 extensive experience of distributed workload management in the high-energy
-physics ATLAS project using PanDA, coupled with recent conceptual  advances in
-our understanding of workload management on heterogeneous resources. We will
-discuss how we will generalize these initial capabilities towards a more
-production level service on DOE leadership resources.
-
+physics ATLAS project using PanDA (Production and Distributed Analysis System), 
+coupled with recent conceptual advances in our understanding of workload management 
+on heterogeneous resources. We will discuss how we will generalize these initial 
+capabilities towards a more production level service on DOE leadership resources.
