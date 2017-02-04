@@ -1,0 +1,11 @@
+Number of lines that have been read: 3662110
+Average number of lines per file: 15991.7467249
+Number of records extracted: 16209
+Average number of records extracted per file: 70.7816593886
+Number of records extracted that belongs to the first bin:0
+Number of records extracted that belongs to the second bin:211
+Number of records extracted that belongs to the third bin:403
+Number of records extracted that belongs to the fourth bin:446
+Number of records extracted that belongs to the fifth bin:15149
+Start date:2016-06-01
+End date:2017-01-15
