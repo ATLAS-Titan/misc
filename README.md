@@ -8,8 +8,8 @@ We execute a varying number of the same compute unit (CU) on a varying number of
 
 We execute a varying number of the same compute unit (CU) on a varying number of cores measuring strong and weak scalability as defined in [Ref](https://arxiv.org/pdf/1602.00678.pdf). We execute two experiments with:
 
-1. 1024 tasks executed on between 16 and 1024 
-2. betwen 16 and 1024 tasks executed, respectively, on between 16 and 1024 cores.
+1. Strong Scaling: 1024 tasks executed using between 16 and 1024 cores
+2. Weak Scaling: Betwen 16 and 1024 tasks executed, respectively, on between 16 and 1024 cores, so as to keep ratio of number of tasks to cores constant.
 
 In both experiments we record the time to completion (TTC) of the execution as a measure of strong and weak scalability.
 
