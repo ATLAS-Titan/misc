@@ -1,5 +1,9 @@
 # misc
 
+## Experiments 
+
+We execute a varying number of the same compute unit (CU) on a varying number of cores. The kernel of the CU is Gromacs, as executed by this [use case](https://docs.google.com/document/d/1a8i38Z_aROQgylRNtbsePGH6UovRJgg0WW4gbk5kW4A/edit#heading=h.8tk04bz0vj23). 
+
 ## Experiments MD workload
 
 We execute a varying number of the same compute unit (CU) on a varying number of cores measuring strong and weak scalability as defined in [Ref](https://arxiv.org/pdf/1602.00678.pdf). We execute two experiments with:
