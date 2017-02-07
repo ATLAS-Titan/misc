@@ -5,10 +5,15 @@
 We document how to execute a varying number of the same compute unit (CU) on a varying number of cores of Titan. The kernel of the CU might be Gromacs, as executed by this [use case](https://docs.google.com/document/d/1a8i38Z_aROQgylRNtbsePGH6UovRJgg0WW4gbk5kW4A/edit#heading=h.8tk04bz0vj23). `/bin/date` will be used if difficulties emerge with Gromacs.
 
 The documentation will use examplanotory runs consistent with the following parameters:
+
 1. 128 CU - 64 cores;
+
 2. 128 CU - 128 cores;
+
 3. 256 CU - 64 cores;
+
 4. 256 CU - 128 Cores;
+
 No diagrams will be produced.
 
 ## Experiments MD workload
