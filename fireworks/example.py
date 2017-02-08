@@ -31,7 +31,12 @@ if __name__ == '__main__':
 		exit()
     resource = "ornl.titan" # Type of resource  
     numCUs = int(sys.argv[1]) # Number of CUs
+   
     numCores= int(sys.argv[2]) # Number of cores
+    if numCores > 128:
+		print("This branch of Radical Pilot is still under testing. We recommend to use a number of cores smaller than 128")
+		print("Comment lines 36-39 if you want to increase the numbe of cores")
+		exit()
     # Create a new session. No need to try/except this: if session creation
     # fails, there is not much we can do anyways...
     session = rp.Session()
