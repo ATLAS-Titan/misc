@@ -37,6 +37,8 @@ if __name__ == '__main__':
 		print("This branch of Radical Pilot is still under testing. We recommend to use a number of cores smaller than 128")
 		print("Comment lines 36-39 if you want to increase the number of cores")
 		exit()
+    if numCUs > 512:
+		print("Alert: 120 miutes might not be enough to run 512 single thread gromacs simulation")
     # Create a new session. No need to try/except this: if session creation
     # fails, there is not much we can do anyways...
     session = rp.Session()
@@ -90,8 +92,9 @@ if __name__ == '__main__':
 
             # create a new CU description, and fill it.
             # Here we don't use dict initialization.
-            cud = CUDef.createCU(1) ## The number of cores per CU has been set to 1. (hard coded, can be changed). The creation of the CU could stay outside the loop since all the CUs are the same
-            cuds.append(cud)
+            cud = CUDef.createGromacsCU(1) ## The number of cores per CU has been set to 1. (hard coded, can be changed). The creation of the CU could stay outside the loop since all the CUs are the same
+	    #cud = CUDef.createDateCU() ## Create a /bin/date CU --- Comment the line above and de-comment this one if you want to try /bin/date
+	    cuds.append(cud)
             report.progress()
         report.ok('>>ok\n')
 
