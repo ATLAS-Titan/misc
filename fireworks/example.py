@@ -26,13 +26,18 @@ if __name__ == '__main__':
     report = ru.LogReporter(name='radical.pilot')
     report.title('Getting Started (RP version %s)' % rp.version)
     # use the resource specified as argument, fall back to localhost
-    if   len(sys.argv)  != 3: 
-		print("Help: python example.py <# CU> <# cores>")
-		exit()
-    resource = "ornl.titan" # Type of resource  
-    numCUs = int(sys.argv[1]) # Number of CUs
-   
-    numCores= int(sys.argv[2]) # Number of cores
+    resource = "ornl.titan" # Type of resource
+    numCUs=128 # Number of CUs
+    numCores=128 # Number of cores
+    if   len(sys.argv)  == 1: 
+    	print("Default paramters: 128 CUs and 128 cores")
+    elif len(sys.argv) ==3:  
+    	numCUs = int(sys.argv[1]) # Number of CUs
+   	numCores= int(sys.argv[2]) # Number of cores
+    else: 
+	print("Help: python example.py <# CU> <# cores>")
+	exit()
+
     if numCores > 128:
 		print("This branch of Radical Pilot is still under testing. We recommend to use a number of cores smaller than 128")
 		print("Comment lines 36-39 if you want to increase the number of cores")
