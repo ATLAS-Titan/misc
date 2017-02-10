@@ -14,7 +14,7 @@ def createGromacsCU(cores):
 	# set  the command to run
 	cu.executable=[PATH+"gmx_mpi"] 
 	# set the arguments for the executable
-	cu.arguments=["mdrun","-ntomp",str(cores), "-nb", "cpu","-s","topol.tpr","-c","out.gro"]
+	cu.arguments=["mdrun", "-nb", "cpu","-s","topol.tpr","-c","out.gro"]
 	# Stage the input files
 	cu.input_staging = ["topol.tpr"]
 	# Set open-mpi
