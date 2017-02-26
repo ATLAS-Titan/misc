@@ -1,0 +1,10 @@
+#time,name,uid,state,event,msg
+1488045604.1941,rp.session.titan-ext2.aleang9.017222.0027:,,,sync abs,titan-ext2.ccs.ornl.gov:127.0.0.1:1488045604.14:1488045604.17:ntp
+1488045604.1987,rp.session.titan-ext2.aleang9.017222.0027:MainThread,rp.session.titan-ext2.aleang9.017222.0027,,start session,
+1488045604.4133,rp.session.titan-ext2.aleang9.017222.0027:MainThread,rp.session.titan-ext2.aleang9.017222.0027,,configs parsed,
+1488050207.9126,rp.session.titan-ext2.aleang9.017222.0027:MainThread,rp.session.titan-ext2.aleang9.017222.0027,,close,
+1488050212.8379,rp.session.titan-ext2.aleang9.017222.0027:MainThread,umgr.0000,,closed umgr,
+1488050392.5772,rp.session.titan-ext2.aleang9.017222.0027:MainThread,pmgr.0000,,closed pmgr,
+1488050393.6477,rp.session.titan-ext2.aleang9.017222.0027:MainThread,rp.session.titan-ext2.aleang9.017222.0027,,closing,False
+1488050393.6481,rp.session.titan-ext2.aleang9.017222.0027:MainThread,rp.session.titan-ext2.aleang9.017222.0027,,closed,
+1488050393.6481,rp.session.titan-ext2.aleang9.017222.0027:MainThread,,,END,
