@@ -1,7 +1,0 @@
-#time,name,uid,state,event,msg
-1488058119.4574,update.0:,,,sync abs,titan-batch1.ccs.ornl.gov:10.128.36.86:1488058119.42:1488058119.43:ntp
-1488058119.4577,update.0:MainThread,update.0,,initialize,
-1488058119.4786,update.0:update.0.idler._profile_flush_cb,,,flush,
-1488058179.4871,update.0:update.0.idler._profile_flush_cb,,,flush,
-1488058190.8120,update.0:MainThread,update.0,,stopped,
-1488058190.8120,update.0:MainThread,,,END,

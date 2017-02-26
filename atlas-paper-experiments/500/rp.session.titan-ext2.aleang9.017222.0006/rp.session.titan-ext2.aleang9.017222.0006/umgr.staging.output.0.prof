@@ -1,9 +1,0 @@
-#time,name,uid,state,event,msg
-1487992334.2927,umgr.staging.output.0:,,,sync abs,titan-ext2.ccs.ornl.gov:127.0.0.1:1487992334.27:1487992334.28:ntp
-1487992334.2965,umgr.staging.output.0:MainThread,umgr.staging.output.0,,initialize,
-1487992334.3109,umgr.staging.output.0:umgr.staging.output.0.idler._profile_flush_cb,,,flush,
-1487992394.3581,umgr.staging.output.0:umgr.staging.output.0.idler._profile_flush_cb,,,flush,
-1487992454.3804,umgr.staging.output.0:umgr.staging.output.0.idler._profile_flush_cb,,,flush,
-1487992514.3834,umgr.staging.output.0:umgr.staging.output.0.idler._profile_flush_cb,,,flush,
-1487992550.2533,umgr.staging.output.0:MainThread,umgr.staging.output.0,,stopped,
-1487992550.2533,umgr.staging.output.0:MainThread,,,END,
