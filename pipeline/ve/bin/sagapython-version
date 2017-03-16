@@ -1,0 +1,5 @@
+#!/media/alessio/Documents/Progetti/Atlas/misc/pipeline/ve/bin/python2
+
+import saga
+print saga.version_detail
+

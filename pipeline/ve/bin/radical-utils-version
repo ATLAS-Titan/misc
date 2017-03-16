@@ -1,0 +1,6 @@
+#!/media/alessio/Documents/Progetti/Atlas/misc/pipeline/ve/bin/python2
+
+import radical.utils as ru
+
+print ru.version_detail
+
